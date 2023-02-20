@@ -232,7 +232,7 @@ public class main {
 				layeredPane.removeAll();
 				layeredPane.add(startWin);
 				
-				
+				scoreLabel.setText("Score: 0");
 				int result[] = gme.score;
 				for (int i = 0; i < result.length; i++) {
 					chars[i].setEnabled(true);
