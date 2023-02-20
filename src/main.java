@@ -222,7 +222,7 @@ public class main {
 					showScoreLabel.setText("Your score is " + Arrays.stream(result).sum() + "!");
 					
 					String description = fetchDic.getDescription(gme.word);
-					descText.setText(description);
+					descText.setText(gme.word.substring(0,1).toUpperCase() + gme.word.substring(1) + " - " + description);
 				}
 			}
 		});

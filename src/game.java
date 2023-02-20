@@ -53,7 +53,7 @@ public class game {
 	
 	public void setWord() {
 		int lines = linesCount(scan, file);
-		Index = random.nextInt(0, lines - 1);
+		Index = random.nextInt(lines - 1);
 		word = getLine(scan, file, Index);
 		this.attempts = 5;
 		//System.out.println(word);
